@@ -8,7 +8,8 @@ var app=express();
 var Accountcontroller=function(req,resp){
 var customer =[{customer:"Oracle",location:"England",turnover:10},
 {customer:"MRF-Tyre",location:"India",turnover:20},
-{customer:"AXIS-Bank",location:"Africa",turnover:30}];
+{customer:"AXIS-Bank",location:"Africa",turnover:30},
+{customer:"bankOFBaroda",location:"china",turnovr:40}];
 resp.send(customer);
 }
 
