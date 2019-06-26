@@ -1,0 +1,42 @@
+-Contoso is a multinational company.
+-Company want a common website for 12 offices all over the world.
+-The website is containing  corporate details of corporate Customers
+  accounting related information.
+-those details should be accessible to repective offices as well as some
+ details has been shared between employees.
+-all the employee should access details.
+-the website should be hosted on AWS or google cloud platform.
+-website should be build and host 24/7.
+-continuous dyanamic pages should be accessible
+-given website should be secure and should maintain all the security
+ level constraints.
+-website should use REST api.
+-Customer details must be private and not accessible by any other.
+
+
+
+
+Functional requirements : -
+
+-we need nodejs server, express js or angular for hosting a server using CI(continuous Integration)
+-We need a supported browser for website we can use html,css,bootstrap,MEAN programming to design a page.
+-It should contain login page.
+-User registration should be done by the admin only.
+-No seperate user user can login the page without id and password.
+-captcha should be maintain as per the security consern.
+-Page should be asynchronous.
+-database should be maintain for all the company employee and for corporate details we should use another database for security.
+-We can use .org domain for company.
+-welcome page,login page,details related with account page.
+-Password reset related links.
+
+
+Non-Functional Requirements
+- It should be secure.
+- database query should contains less overhead so that performance may get increase.
+- Should contain multiple copies for the server.
+- Load balancing should be done in proper way.
+- Maintaince should be done.
+- Depending on the need we can use IAAS, PAAS, OR SAAS.
+- for security we should use IAAS.
+- It may contain charts related to growth and analysis,statistics.
